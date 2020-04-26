@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Logins</title>
+		<h1>Login Senac</h1>
+		
+		<style>
+		body{
+		background-color: #FFFFFF;
+		}
+		h1{
+		color:#1C1C1C; font-family: verdana; font-size: 40px; font-weight:bold; text-align:center;
+		}
+		
+		div{
+		text-align:center;
+		background-color:#F8F8FF;
+		width:45%;
+		height:370px;
+		border: 1px solid #FF6600;
+		margin-left:25%;
+		margin-right:25%;
+		}
+		
+		table{
+		
+		text-align:center;
+		}
+		
+		label{
+		font-size: 20px;
+		}
+		input[type="text"]:focus{
+				background-color:#4D4DFF;
+			}
+		input[type="password"]:focus{
+				background-color:#4D4DFF;
+			}
+		div:hover{border: 2px solid #FF6600;}	
+		
+		#a{
+		margin-top: 20px;
+		}
+		</style>
+	</head>
+	<body>
+		<div>
+			<h2><img width='150' height='100' src='./imageens/logoSenac.jpg'></h2>
+			<table align="center">		
+				<tr>
+					<td><label>Login: </label></td>
+					<td><input type="text" id="texto1" name="texto1"></input></td>
+				</tr>
+				<tr>		
+					<td><label>Senha: </label></td>
+					<td><input type="password" id="texto2" name="texto2"></input></td>
+				</tr>	
+			</table>
+			<input type="checkbox" id="marca"><label id="marcou">Eu li e aceito os termos e condições.</label><br>
+			
+			<a href='cadastroUsuario.html'>
+			<button type="button" id="a">Entrar</button>
+			</a>
+		</div>	
+	</body>	
+</html>
